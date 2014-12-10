@@ -72,7 +72,7 @@ view.
 
 * Arrows point from sender to receiver of a call
 * We color-coded all methods on a scale from blue to green (linear log-scaled color gradient). The more a method is invoked, the greener it is.
-
+* You may note that some methods are green even though you can't see many arrows pointing to it. That's also because we only picked the first 100 classes, but considered all Invocations nevertheless. Feel free to up the class count. And get a coffee.
 
 
 
