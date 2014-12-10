@@ -56,6 +56,12 @@ elements @ (RTMenuActivable new action:#inspect).
 view @ RTDraggableView.
 view.
 ```
+
+### Some Screenshots
+
+![Circle](https://www.dropbox.com/s/tr73ztza56y2gc8/Screen%20Shot%202014-12-10%20at%2002.16.37.png?dl=0)
+
+
 ##Task 2
 
 ###a) 
