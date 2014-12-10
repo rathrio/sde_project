@@ -79,13 +79,15 @@ view.
 
 ##Task 2
 
+For solving the this and all successive tasks of this project we are reyling on a [Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) simulation written in Java. You can find the source of the application at http://www.bitstorm.org/gameoflife/standalone/.
+
 ###a) 
 
 See [here](https://github.com/rathrio/sde_project/blob/master/src/sde/Main.java) for source.
 
 ###b) 
 
-We couldn't do this, mainly because we looked at two different java projects for reasons defined in the [report](https://github.com/rathrio/sde_project/blob/master/report.md).
+We couldn't do this, mainly because we looked at two different java projects for reasons defined in the [report](https://github.com/rathrio/sde_project/blob/master/report.md). 
 
 ###c)
 
