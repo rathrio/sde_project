@@ -75,7 +75,7 @@ For evaluating the quality of our profiler we did the following:
 Measured Pofiling data sets:
 
 + [Ours](https://github.com/rathrio/sde_project/blob/master/homebrew_javassist_results.txt): For this data-set, **Total Time** corresponds to **total** and **Time Prime** to **prime**.
-+ [Ourkid's](https://github.com/rathrio/sde_project/blob/master/off_shelf.csv): For this data-set, **Total Time** corresponds to **time** and **Time Prime** to **own time**.
++ [Yourkit's](https://github.com/rathrio/sde_project/blob/master/off_shelf.csv): For this data-set, **Total Time** corresponds to **time** and **Time Prime** to **own time**.
 
 For computing the Spearman Correlation we used the following Matlab script:
 
@@ -91,9 +91,9 @@ their = sort(theirProfiling(:,2), 'descend');
 correlation_time_prime = 1-(6*sum((us-them).^2)) / ((length(us)^2) - 1)*length(us)
 ```
 
-Correlation for **correlation_total_time** is then equal to `0.8997`. This means that our positive-storng correlate to the measurments resulting from  _yourkid_.
+Correlation for **correlation_total_time** is then equal to `0.8997`. This means that our positive-storng correlate to the measurments resulting from  _yourkit_.
 
-The correlation **correlation_time_prime** is equal to `-0.3500`. This means that our measurements negative-weakly correlate to the measurements resulting from _yourkid_. One possible reason for this is that most of the measured values were equal to zero when using the time unit *miliseconds*. This implies that only few random value events contributed to the correlation (due to the delta summation in the spearman's formula). However, we think that if we would have used nanoseconds (instead of miliseconds) fewer values would be non-zero and thus the correlation would alter (refering to the formula for computing the spearman correlation) closer to a reliable correlation coefficient.
+The correlation **correlation_time_prime** is equal to `-0.3500`. This means that our measurements negative-weakly correlate to the measurements resulting from _yourkit_. One possible reason for this is that most of the measured values were equal to zero when using the time unit *miliseconds*. This implies that only few random value events contributed to the correlation (due to the delta summation in the spearman's formula). However, we think that if we would have used nanoseconds (instead of miliseconds) fewer values would be non-zero and thus the correlation would alter (refering to the formula for computing the spearman correlation) closer to a reliable correlation coefficient.
 
 
 
