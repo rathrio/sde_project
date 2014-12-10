@@ -58,9 +58,9 @@ view.
 ```
 ##Task 2
 
-###a)
+###a) See [here](https://github.com/rathrio/sde_project/blob/master/src/sde/Main.java) for source.
 
-###b) 
+###b) We couldn't do this, mainly because we looked at two different java projects for reasons defined in the [report](https://github.com/rathrio/sde_project/blob/master/report.md).
 
 ###c)
 
