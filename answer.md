@@ -60,7 +60,7 @@ view.
 ##Task 3
 
 
-###a) + b)
+###Task 3.1
 
 For evaluating the quality of our profiler we did the following:
 
@@ -86,11 +86,12 @@ us_total = sort(ourProfiling(:,1), 'descend');
 correlation_total_time = corr(us, them, 'type', 'Spearman')
 
 % compute the spearman correlation for the random variable 'time prime'
+us = sort(ourProfiling(:,2), 'descend');
+their = sort(theirProfiling(:,2), 'descend');
 correlation_time_prime = 1-(6*sum((us-them).^2)) / ((length(us)^2) - 1)*length(us)
 ```
 
-Correlation for **correlation_total_time** is then equal to `0.8997`. 
-
+Correlation for **correlation_total_time** is then equal to `0.8997`. This means that our positive-storng correlate to the measurments resulting from  _yourkid_.
 
 The correlation **correlation_time_prime** is equal to `-0.3500`. This means that our measurements negative-weakly correlate to the measurements resulting from _yourkid_. One possible reason for this is that most of the measured values were equal to zero when using the time unit *miliseconds*. This implies that only few random value events contributed to the correlation (due to the delta summation in the spearman's formula). However, we think that if we would have used nanoseconds (instead of miliseconds) fewer values would be non-zero and thus the correlation would alter (refering to the formula for computing the spearman correlation) closer to a reliable correlation coefficient.
 
