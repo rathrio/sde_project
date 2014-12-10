@@ -76,6 +76,20 @@ view.
 * You may note that some methods are green even though you can't see many arrows pointing to it. That's also because we only picked the first 100 classes, but considered all Invocations nevertheless. Feel free to up the class count. And get a coffee.
 
 
+The following snippet creates a list of methods in the requested format:
+
+```smalltalk
+Transcript open.
+Transcript show: 'Method Full Name, LOC, NOIC, LOC*NOIC'.
+
+((MooseModel root first allMethods)) do: [ :method |
+	Transcript show: method asString , ', ' , method numberOfLinesOfCode asString , ', ' , method invokingMethods size asString , ', ' , (method numberOfLinesOfCode * method invokingMethods size) asString , String cr.]
+```
+
+Legend: 
+
++ **LOC** Lines of Code.
++ **NOIC** Number of incoming calls.
 
 ##Task 2
 
