@@ -65,7 +65,7 @@ view.
 
 ![Circle](https://github.com/rathrio/sde_project/blob/master/Screen%20Shot%202014-12-10%20at%2002.16.37.png)
 
-* We only considered about 100 classes because it our computers froze for ever when we tried to load all of the 3285 classes in.
+* We only considered about 100 classes because our computers froze up when we tried to load all of the 3285 classes in.
 
 
 ![https://github.com/rathrio/sde_project/blob/master/Screen%20Shot%202014-12-10%20at%2002.17.59.png](https://github.com/rathrio/sde_project/blob/master/Screen%20Shot%202014-12-10%20at%2002.17.59.png)
