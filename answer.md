@@ -59,7 +59,7 @@ view.
 
 ### Some Screenshots
 
-[Circle](https://www.dropbox.com/s/tr73ztza56y2gc8/Screen%20Shot%202014-12-10%20at%2002.16.37.png?dl=0)
+![Circle](https://dl-web.dropbox.com/get/sde/Screen%20Shot%202014-12-10%20at%2002.16.37.png?_subject_uid=15323750&w=AAAkMXZ7NWHwtbp6sKXINEKO8DcKiTEgCXSQum2eQpcKfw)
 
 
 ##Task 2
