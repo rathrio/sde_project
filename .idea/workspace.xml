@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cf348ae-565a-4e48-8c98-95a4546173d0" name="Default" comment="Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sde/sde/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javassist.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jruby-complete-1.5.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GameOfLife.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sde/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javassist.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javassist__2_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jruby_complete_1_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/rath_rio.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sde.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="5cf348ae-565a-4e48-8c98-95a4546173d0" name="Default" comment="Initial commit" />
     <ignored path="sde.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +43,8 @@
       <file leaf-file-name="StandaloneGameOfLife.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/org/bitstorm/gameoflife/StandaloneGameOfLife.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.72" vertical-offset="16642" max-vertical-offset="20355">
-              <caret line="1134" column="55" selection-start-line="1134" selection-start-column="55" selection-end-line="1134" selection-end-column="55" />
+            <state vertical-scroll-proportion="-20.92" vertical-offset="7232" max-vertical-offset="20355">
+              <caret line="517" column="33" selection-start-line="517" selection-start-column="33" selection-end-line="517" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -525,12 +504,12 @@
       <workItem from="1418058956251" duration="3554000" />
       <workItem from="1418113292466" duration="20420000" />
       <workItem from="1418148985785" duration="6939000" />
-      <workItem from="1418162662973" duration="3866000" />
+      <workItem from="1418162662973" duration="4697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36054000" />
+    <option name="totallyTimeSpent" value="36885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -871,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/org/bitstorm/gameoflife/StandaloneGameOfLife.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.72" vertical-offset="16642" max-vertical-offset="20355">
-          <caret line="1134" column="55" selection-start-line="1134" selection-start-column="55" selection-end-line="1134" selection-end-column="55" />
+        <state vertical-scroll-proportion="-20.92" vertical-offset="7232" max-vertical-offset="20355">
+          <caret line="517" column="33" selection-start-line="517" selection-start-column="33" selection-end-line="517" selection-end-column="33" />
           <folding />
         </state>
       </provider>
