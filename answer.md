@@ -86,12 +86,10 @@ us_total = sort(ourProfiling(:,1), 'descend');
 correlation_total_time = corr(us, them, 'type', 'Spearman')
 
 % compute the spearman correlation for the random variable 'time prime'
-them_prime = sort(theirProfiling(:,2), 'descend');
-us_prime = sort(ourProfiling(:,2), 'descend');
-correlation_time_prime = corr(us, them, 'type', 'Spearman')
+correlation_time_prime = 1-(6*sum((us-them).^2)) / ((length(us)^2) - 1)*length(us)
 ```
 
-Correlation for **correlation_total_time** is then equal to `0.8997`. Unfortunately, we had some numerical issue in computing **correlation_time_prime** (Matlab was returning NaN). To that time we did not know how to solve this issue, thereforew we were only able to evaluate the correlation of the total time random variable.
+Correlation for **correlation_total_time** is then equal to `0.8997` and the correlation **correlation_time_prime** is equal to `-0.3500`.
 
 
 
