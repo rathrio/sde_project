@@ -70,6 +70,9 @@ For evaluating the quality of our profiler we did the following:
 
 3. Using an official, well-established profiler ([ourkid](http://www.yourkit.com/)), we performed for exactly the same amount of time the identical operation sequence a profiling and measured the same variables (times). 
 
+4. For each measured random variable (total time, time prime) we computed their Spearmean Correlation.
+
+
 
 first column corresponds to measured **total time**.
 second column corresonds to measured **prime time**.
