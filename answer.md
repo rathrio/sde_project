@@ -60,7 +60,7 @@ view.
 ##Task 3
 
 
-###a) + b)
+###Task 3.1
 
 For evaluating the quality of our profiler we did the following:
 
@@ -77,7 +77,7 @@ Measured Pofiling data sets:
 + [Ours](https://github.com/rathrio/sde_project/blob/master/homebrew_javassist_results.txt): For this data-set, **Total Time** corresponds to **total** and **Time Prime** to **prime**.
 + [Yourkit's](https://github.com/rathrio/sde_project/blob/master/off_shelf.csv): For this data-set, **Total Time** corresponds to **time** and **Time Prime** to **own time**.
 
-For computing the Spearman Correlation we used the following Matlab script:
+For computing the [Spearman Correlation](http://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient) we implemented the following Matlab script:
 
 ```matlab
 % compute the spearman correlation for the random variable 'total time'
