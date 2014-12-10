@@ -58,16 +58,23 @@ view.
 ```
 ##Task 2
 
-###a) See [here](https://github.com/rathrio/sde_project/blob/master/src/sde/Main.java) for source.
+###a) 
 
-###b) We couldn't do this, mainly because we looked at two different java projects for reasons defined in the [report](https://github.com/rathrio/sde_project/blob/master/report.md).
+See [here](https://github.com/rathrio/sde_project/blob/master/src/sde/Main.java) for source.
+
+###b) 
+
+We couldn't do this, mainly because we looked at two different java projects for reasons defined in the [report](https://github.com/rathrio/sde_project/blob/master/report.md).
 
 ###c)
 
+See [here](https://github.com/rathrio/sde_project/blob/master/homebrew_javassist_results.txt).
+
 ###d)
 
-##Task 3
+See [here](https://github.com/rathrio/sde_project/blob/master/off_shelf_results.csv)
 
+##Task 3
 
 ###a) + b)
 
