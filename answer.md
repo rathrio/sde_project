@@ -1,6 +1,6 @@
 #Answers SDE Project 2014
 
-For our design decisions and limitations, please have a look at our [report](https://github.com/rathrio/sde_project/blob/master/report.md)
+For our design decisions and limitations, please have a look at our [report](https://github.com/rathrio/sde_project/blob/master/report.md).
 
 ##Task 1
 
@@ -61,7 +61,9 @@ view.
 
 ### Some Screenshots
 
-![Circle](https://dl-web.dropbox.com/get/sde/Screen%20Shot%202014-12-10%20at%2002.16.37.png?_subject_uid=15323750&w=AAAkMXZ7NWHwtbp6sKXINEKO8DcKiTEgCXSQum2eQpcKfw)
+![Circle](https://github.com/rathrio/sde_project/blob/master/Screen%20Shot%202014-12-10%20at%2002.16.37.png)
+
+
 
 
 ##Task 2
