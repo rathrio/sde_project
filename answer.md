@@ -60,7 +60,7 @@ view.
 ##Task 3
 
 
-###Task 3.1
+###a) + b)
 
 For evaluating the quality of our profiler we did the following:
 
