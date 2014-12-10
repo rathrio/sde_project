@@ -91,6 +91,8 @@ Legend:
 + **LOC** Lines of Code.
 + **NOIC** Number of incoming calls.
 
+**Remark**: Note that execuating this snipped can take a while. 
+
 ##Task 2
 
 For solving the this and all successive tasks of this project we are reyling on a [Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) simulation written in Java. You can find the source of the application at http://www.bitstorm.org/gameoflife/standalone/.
