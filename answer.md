@@ -57,6 +57,13 @@ view @ RTDraggableView.
 view.
 ```
 ##Task 2
+
+###a)
+
+###b) 
+
+###c)
+
 ##Task 3
 
 
