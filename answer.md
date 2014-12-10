@@ -81,6 +81,9 @@ org.bitstorm.gameoflife.GameOfLifeGrid.setCell(int, int, boolean)	0	0	0	35
 ```
 
 ###Task 3.1
+For comparing the quality of our profiler some of its profilings - tital time and prime
+From PLACE 
+
 
 first column corresponds to measured **total time**.
 second column corresonds to measured **prime time**.
