@@ -72,13 +72,12 @@ For evaluating the quality of our profiler we did the following:
 
 4. For each measured random variable (total time, time prime) we computed their Spearmean Correlation.
 
-Pofiling data sets:
+Measured Pofiling data sets:
 
 + [Ours](https://github.com/rathrio/sde_project/blob/master/homebrew_javassist_results.txt): For this data-set, **Total Time** corresponds to **total** and **Time Prime** to **prime**.
 + [Ourkid's](https://github.com/rathrio/sde_project/blob/master/off_shelf.csv): For this data-set, **Total Time** corresponds to **time** and **Time Prime** to **own time**.
 
-first column corresponds to measured **total time**.
-second column corresonds to measured **prime time**.
+For computing the Spearman Correlation we used the following Matlab script:
 
 ```matlab
 them = sort(theirProfiling(:,1), 'descend');
