@@ -80,9 +80,15 @@ Measured Pofiling data sets:
 For computing the Spearman Correlation we used the following Matlab script:
 
 ```matlab
-them = sort(theirProfiling(:,1), 'descend');
-us = sort(ourProfiling(:,1), 'descend');
-confidence = corr(us, them, 'type', 'Spearman')
+% compute the spearman correlation for the random variable 'total time'
+them_total = sort(theirProfiling(:,1), 'descend');
+us_total = sort(ourProfiling(:,1), 'descend');
+correlation_total_time = corr(us, them, 'type', 'Spearman')
+
+% compute the spearman correlation for the random variable 'time prime'
+them_prime = sort(theirProfiling(:,2), 'descend');
+us_prime = sort(ourProfiling(:,2), 'descend');
+correlation_time_prime = corr(us, them, 'type', 'Spearman')
 ```
 
 confidence `0.8997`
