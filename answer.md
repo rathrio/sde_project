@@ -91,7 +91,7 @@ us_prime = sort(ourProfiling(:,2), 'descend');
 correlation_time_prime = corr(us, them, 'type', 'Spearman')
 ```
 
-confidence `0.8997`
+Correlation for **correlation_total_time** is then equal to `0.8997`. Unfortunately, we had some numerical issue in computing **correlation_time_prime** (Matlab was returning NaN). To that time we did not know how to solve this issue, thereforew we were only able to evaluate the correlation of the total time random variable.
 
 
 
