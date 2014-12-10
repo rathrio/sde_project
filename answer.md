@@ -68,7 +68,7 @@ For evaluating the quality of our profiler we did the following:
 
 2. For a fixed amount of time (10 tics) and a known sequence of operations, we performed a profiling of this application and measured the total time spent inside a method (denoted by tital time) and the time exclusively spent in this method (i.e. without any external calls, denoted by time prime).
 
-3. Using an official, well-established profiler ([ourkid](http://www.yourkit.com/)), we performed for approximitly the same amount of time the identical operation sequence a profiling and measured the same variables (times). 
+3. Using an official, well-established profiler ([yourkit](http://www.yourkit.com/)), we performed for approximitly the same amount of time the identical operation sequence a profiling and measured the same variables (times). 
 
 4. For each measured random variable (total time, time prime) we computed their Spearmean Correlation.
 
