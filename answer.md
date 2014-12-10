@@ -68,14 +68,14 @@ For evaluating the quality of our profiler we did the following:
 
 2. For a fixed amount of time (10 tics) and a known sequence of operations, we performed a profiling of this application and measured the total time spent inside a method (denoted by tital time) and the time exclusively spent in this method (i.e. without any external calls, denoted by time prime).
 
-3. Using an official, well-established profiler ([ourkid](http://www.yourkit.com/)), we performed for exactly the same amount of time the identical operation sequence a profiling and measured the same variables (times). 
+3. Using an official, well-established profiler ([ourkid](http://www.yourkit.com/)), we performed for approximitly the same amount of time the identical operation sequence a profiling and measured the same variables (times). 
 
 4. For each measured random variable (total time, time prime) we computed their Spearmean Correlation.
 
 Pofiling data sets:
 
-+ [Ours](https://github.com/rathrio/sde_project/blob/master/homebrew_javassist_results.txt)
-+ [Ourkid's](https://github.com/rathrio/sde_project/blob/master/off_shelf.csv)
++ [Ours](https://github.com/rathrio/sde_project/blob/master/homebrew_javassist_results.txt): For this data-set, **Total Time** corresponds to **total** and **Time Prime** to **prime**.
++ [Ourkid's](https://github.com/rathrio/sde_project/blob/master/off_shelf.csv): For this data-set, **Total Time** corresponds to **time** and **Time Prime** to **own time**.
 
 first column corresponds to measured **total time**.
 second column corresonds to measured **prime time**.
