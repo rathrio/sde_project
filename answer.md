@@ -89,7 +89,10 @@ correlation_total_time = corr(us, them, 'type', 'Spearman')
 correlation_time_prime = 1-(6*sum((us-them).^2)) / ((length(us)^2) - 1)*length(us)
 ```
 
-Correlation for **correlation_total_time** is then equal to `0.8997` and the correlation **correlation_time_prime** is equal to `-0.3500`.
+Correlation for **correlation_total_time** is then equal to `0.8997`.
+
+
+The correlation **correlation_time_prime** is equal to `-0.3500`. This means that our measurements negative-weakly correlate to the measurements resulting from _yourkid_. One possible reason for this is that most of the measured values were equal to zero when using the time unit *miliseconds*. However, we think that if we would have used nanoseconds (instead of miliseconds) fewer values would be non-zero and thus the correlation would alter (refering to the formula for computing the spearman correlation).
 
 
 
