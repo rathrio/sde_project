@@ -4,6 +4,8 @@ For our design decisions and limitations, please have a look at our [report](htt
 
 ##Task 1
 
+We picked the jruby 1.5.2 mse file.
+
 ```smalltalk
 invocations := (MooseModel root first allInvocations) .
 classes := (MooseModel root first allClasses) first: 100.
@@ -62,6 +64,14 @@ view.
 ### Some Screenshots
 
 ![Circle](https://github.com/rathrio/sde_project/blob/master/Screen%20Shot%202014-12-10%20at%2002.16.37.png)
+
+* We only considered about 100 classes because it our computers froze for ever when we tried to load all of the 3285 classes in.
+
+
+![https://github.com/rathrio/sde_project/blob/master/Screen%20Shot%202014-12-10%20at%2002.17.59.png](https://github.com/rathrio/sde_project/blob/master/Screen%20Shot%202014-12-10%20at%2002.17.59.png)
+
+* Arrows point from sender to receiver of a call
+* We color-coded all methods on a scale from blue to green (linear log-scaled color gradient). The more a method is invoked, the greener it is.
 
 
 
